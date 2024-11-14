@@ -60,5 +60,26 @@ namespace TeamAPI.Controllers
                 return NotFound(new { message = "Nincs ilyen játékos."});
             }
         }
+
+        [HttpPut]
+        public ActionResult<Player> Put(Guid id, UpdatePlayerDto updatePlayerDto)
+        {
+            using(var context = new TeamContext())
+            {
+                var existingPlayer = context.Players.FirstOrDefault(player => player.Id == id);
+                if (existingPlayer != null)
+                {
+                    existingPlayer.Name = updatePlayerDto.Name;
+                    existingPlayer.Weight = updatePlayerDto.Weight;
+
+                    context.Players.Update(existingPlayer);
+                    context.SaveChanges();
+
+                    return Ok(existingPlayer);
+                }
+                return NotFound();
+            }
+        }
+
     }
 }

@@ -125,3 +125,4 @@ C:\Users\Tanulo\Documents\GitWorkDir\TeamAPI\TeamAPI\obj\Debug\net8.0\refint\Tea
 C:\Users\Tanulo\Documents\GitWorkDir\TeamAPI\TeamAPI\obj\Debug\net8.0\TeamAPI.pdb
 C:\Users\Tanulo\Documents\GitWorkDir\TeamAPI\TeamAPI\obj\Debug\net8.0\TeamAPI.genruntimeconfig.cache
 C:\Users\Tanulo\Documents\GitWorkDir\TeamAPI\TeamAPI\obj\Debug\net8.0\ref\TeamAPI.dll
+C:\Users\Tanulo\Documents\GitWorkDir\TeamAPI\TeamAPI\obj\Debug\net8.0\TeamAPI.sourcelink.json
