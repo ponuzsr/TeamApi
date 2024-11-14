@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TeamAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+85283a6ca7f1e6cf985231a08df091427d69fa05")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5e696c6b6a2efa5b004da40b1aea95ee30727756")]
 [assembly: System.Reflection.AssemblyProductAttribute("TeamAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TeamAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
